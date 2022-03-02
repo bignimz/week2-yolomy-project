@@ -1,0 +1,2 @@
+# Yolomy Landing Page Week 2 Monday Project
+This project is a bout a landing page for an ecommerce website called Yolomy. It is an exercise project for the week 2 tuesday assignment at the Moringa school. Languages applied in designing this page are HTML5, CSS and Javascript.
