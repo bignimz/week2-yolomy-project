@@ -200,6 +200,96 @@ fieldset {
       text-transform: uppercase;
 }
 
+/* Products Display Section */
+
+.product-section-title {
+      font-size: 28px;
+      text-transform: uppercase;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+}
+
+.title-hr {
+      width: 90%;
+     border: 1px solid #333;
+}
+
+/* Product Card */
+.products-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.product-card {
+      width: 400px;
+      height: 430px;
+      background-color: #d6d6d6;
+      border-radius: 5px;
+      position: relative;
+      margin-bottom: 20px;
+}
+
+.select-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.select-color {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.color {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      margin-right: 10px;
+}
+
+.color1 {
+      background-color: green;
+}
+
+.color2 {
+      background-color: blue;
+}
+
+.color3 {
+      background-color: #333;
+}
+
+.product-image {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE MEDIA QUERIES */
 
 @media screen and (max-width: 468px) {
